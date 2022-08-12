@@ -27,67 +27,58 @@
                 </h1>
             </header>
 
-            <section>Last Update [dd.mm.yyyy]: 14.06.2022 ((OUTDATED))
-                <h2>I don't do much in my freetime, besides video cutting and even running a shitpost type <a href="https://www.youtube.com/channel/UCc_tXGF0qSDpzMrst76ra0w">YT channel</a>, my main two activties are these two:</h2>
-                <header>I like to watch anime, here's a short list of my favourite ones:</header>
+            <section>Last Update [dd.mm.yyyy]: 12.08.2022
+                <h2>I don't do much in my freetime, besides video cutting and even running a shitpost type <a href="https://www.youtube.com/channel/UCc_tXGF0qSDpzMrst76ra0w">YT channel</a>, I also...</h2>
                 <article>
                     <div class="polaroid">
                         <div class="container">
-                            Dororo
-								<span style="opacity: 0;"> ------------- </span>
-							To Your Eternity
-								<span style="opacity: 0;"> -- </span>
-							Madoka Magica
-								<span style="opacity: 0;"> -- </span>
-							Made In Abyss
-								<span style="opacity: 0;"> --- </span>
-							Violet Evergarden
-								<span style="opacity: 0;">.</span>
-							Vivy
-								<span style="opacity: 0;"> ---------------- </span>
-							JoJo
-								<span style="opacity: 0;"> ------------------ </span>
-							Kill La Kill
+                        ...like to watch anime, since I have watched a lot, here's a few of my favourites:
                         </div>
                     </div>
-                    <div class="polaroid">
-                        <img src="../img/dororo.jpg" height="225" />
-                        <img src="../img/immortal.jpg" height="225" />
-                        <img src="../img/madoka.jpg" height="225" />
-                        <img src="../img/MIA.jpg" height="225" />
-                        <img src="../img/violet.jpg" height="225" />
-                        <img src="../img/vivy.jpg" height="225" />
-                        <img src="../img/jojo.jpg" height="225" />
-                        <img src="../img/klk.jpg" height="225" />
+                    <div class="polaroid">						
+						<img class="myImg" src="../img/ad.jpg" alt="Akudama Drive" onclick="image(event)" height="300" />
+						<img class="myImg" src="../img/tye.jpg" alt="To Your Eternity" onclick="image(event)" height="300" />
+						<img class="myImg" src="../img/overlord.jpg" alt="Overlord" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/mia.jpg" alt="Made In Abyss" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/ve.jpg" alt="Violet Evergarden" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/vivy.jpg" alt="Vivy: Fluorite Eye's Song" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/mt.jpg" alt="Mushoku Tensei: Jobless Reincarnation" onclick="image(event)" height="300" />
                     </div>
                 </article>
-                <header>I also like to casually play games, but since I'm uncertain about my favourites, here are the ones that I'm playing currently:</header>
                 <article>
                     <div class="polaroid">
                         <div class="container">
-                            Garry's Mod
-								<span style="opacity: 0;"> ------- </span>
-							Ready Or Not
-								<span style="opacity: 0;"> ---------------------------- </span>
-							Satisfactory
-								<span style="opacity: 0;"> ------------------------------------------- </span>
-							Tiny Tina's
-								<span style="opacity: 0;"> ----------- </span>
-							Vampire Survivors
-								<span style="opacity: 0;"> ----- </span>
-							Vermintide 2
+                        ...like to casually play games, since I have too many to list, here are the currently installed ones:
                         </div>
                     </div>
                     <div class="polaroid">
-                        <img src="../img/gmod.jpg" height="225" />
-                        <img src="../img/RON.jpg" height="225" />
-                        <img src="../img/satisfied.jpg" height="225" />
-                        <img src="../img/ttwl.jpg" height="225" />
-                        <img src="../img/vampyr.jpg" height="225" />
-                        <img src="../img/vermin.jpg" height="225" />
+                        <img class="myImg" src="../img/bf1.jpg" alt="Battlefield 1" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/drg.jpg" alt="Deep Rock Galactic" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/sf.jpg" alt="Satisfactory" onclick="image(event)" height="300" />
+                        <img class="myImg" src="../img/ror2.jpg" alt="Risk Of Rain 2" onclick="image(event)" height="300" />
                     </div>
                 </article>
             </section>
+			
+			<div id="myModal" class="modal">
+			<span class="close">&times;</span>
+			<img class="modal-content" id="img01">
+			<div id="caption"></div>
+			</div>
+			<script>
+				var modal = document.getElementById("myModal");
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				function image(event) {
+					modal.style.display = "block";
+					modalImg.src = event.target.src;
+					captionText.innerHTML = event.target.alt;
+				}
+				var span = document.getElementsByClassName("close")[0];
+				span.onclick = function () {
+					modal.style.display = "none";
+			};
+			</script>
 
             <footer>
                 <a href="Contact.html">Contact</a><br />
