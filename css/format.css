@@ -131,7 +131,7 @@ th,
 td {
 	background-color: transparent;
     text-align: left;
-    padding: 8px;
+    padding: 10px;
 }
 
 tbody tr:nth-child(odd) {
