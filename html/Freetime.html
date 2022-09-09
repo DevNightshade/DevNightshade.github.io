@@ -1,95 +1,118 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Portfolio: Freetime</title>
-        <link rel="icon" href="../img/logo.png" type="image/x-icon" />
-        <link rel="stylesheet" href="../css/format.css" />
-    </head>
 
-    <body>
-        <main>
-            <header>
-                <a id="backlink" style="float: left;">
-                    <img id="logo" src="../img/logo.png" width="75" height="75" />
-                </a>
-                <h1>
-                    Nightshade's Portfolio
-                    <ul>
-                        <a href="https://devnightshade.github.io">Homepage</a>
-                        <a class="active">Freetime</a>
-                        <a href="Life.html">My Life</a>
-                        <a href="Work.html">My Work</a>
-                        <a href="Contact.html">Contact</a>
-                    </ul>
-                </h1>
-            </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio: Freetime</title>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/format.css" />
+</head>
 
-            <section>Latest update [dd.mm.yyyy]: 06.09.2022
-                <h2>I don't do much in my freetime, besides video cutting and even running a shitpost type <a href="https://www.youtube.com/channel/UCc_tXGF0qSDpzMrst76ra0w">YT channel</a>, I also...</h2>
-                <article>
-                    <div class="polaroid">
-                        <div class="container">
-                        ...like to watch anime, since I have watched a lot, <a href="https://myanimelist.net/profile/DevNightshade">here's a link to my MAL</a> and below are a few of my favourite Anime:
-                        </div>
-                    </div>
-                    <div class="polaroid">						
-						<img class="myImg" src="../img/ad.jpg" alt="Akudama Drive" onclick="image(event)" width="215" height="300" />
-						<img class="myImg" src="../img/tye.jpg" alt="To Your Eternity" onclick="image(event)" width="215" height="300" />
-						<img class="myImg" src="../img/overlord.jpg" alt="Overlord" onclick="image(event)" width="215" height="300" />
-                        <img class="myImg" src="../img/mia.jpg" alt="Made In Abyss" onclick="image(event)" width="215" height="300" />
-                        <img class="myImg" src="../img/ve.jpg" alt="Violet Evergarden" onclick="image(event)" width="215" height="300" />
-                        <img class="myImg" src="../img/vivy.jpg" alt="Vivy: Fluorite Eye's Song" onclick="image(event)" width="215" height="300" />
-                        <img class="myImg" src="../img/mt.jpg" alt="Mushoku Tensei: Jobless Reincarnation" onclick="image(event)" width="215" height="300" />
-                    </div>
-                </article>
-                <article>
-                    <div class="polaroid">
-                        <div class="container">
-                        ...like to casually play games, since I have too many to list, <a href="https://steamcommunity.com/id/DevNightshade/">here's a link to my Steam</a> and below are currently installed games:
-                        </div>
-                    </div>
-                    <div class="polaroid">
-                        <img class="myImg" src="../img/bf1.jpg" alt="Battlefield 1" onclick="image(event)" width="510" height="300" />
-                        <img class="myImg" src="../img/drg.jpg" alt="Deep Rock Galactic" onclick="image(event)" width="510" height="300" />
-                        <img class="myImg" src="../img/sf.jpg" alt="Satisfactory" onclick="image(event)" width="510" height="300" />
-                        <img class="myImg" src="../img/bbr.jpg" alt="Battle Bit Remastered" onclick="image(event)" width="510" height="300" />
-						<img class="myImg" src="../img/d2.jpg" alt="Destiny 2" onclick="image(event)" width="510" height="300" />
-						<img class="myImg" src="../img/gfr.jpg" alt="Gunfire Reborn" onclick="image(event)" width="510" height="300" />
-						<img class="myImg" src="../img/tb.png" alt="Tannenberg" onclick="image(event)" width="510" height="300" />
-						<img class="myImg" src="../img/vd.jpg" alt="Verdun" onclick="image(event)" width="510" height="300" />
-						<img class="myImg" src="../img/tf2.png" alt="Titanfall 2" onclick="image(event)" width="510" height="300" />
-                    </div>
-                </article>
-            </section>
-			
-			<div id="myModal" class="modal">
-			<span class="close">&times;</span>
-			<img class="modal-content" id="img01">
-			<div id="caption"></div>
-			</div>
-			<script>
-				var modal = document.getElementById("myModal");
-				var modalImg = document.getElementById("img01");
-				var captionText = document.getElementById("caption");
-				function image(event) {
-					modal.style.display = "block";
-					modalImg.src = event.target.src;
-					captionText.innerHTML = event.target.alt;
-				}
-				var span = document.getElementsByClassName("close")[0];
-				span.onclick = function () {
-					modal.style.display = "none";
-			};
-			</script>
+<body>
+    <main>
+        <header>
+            <a id="backlink" style="float: left;">
+                <img id="logo" src="../img/logo.png" width="75" height="75" />
+            </a>
+            <h1>
+                Nightshade's Portfolio
+                <ul>
+                    <a href="https://devnightshade.github.io">Homepage</a>
+                    <a class="active">Freetime</a>
+                    <a href="Life.html">My Life</a>
+                    <a href="Work.html">My Work</a>
+                    <a href="Contact.html">Contact</a>
+                </ul>
+            </h1>
+        </header>
 
-            <footer>
-                <a href="Contact.html">Contact</a><br />
-                <br />
-                © 2022 by Nightshade
-            </footer>
-        </main>
-    </body>
+        <section>Latest update [dd.mm.yyyy]: 06.09.2022
+            <h2>I don't do much in my freetime, besides video cutting and even running a shitpost type <a
+                    href="https://www.youtube.com/channel/UCc_tXGF0qSDpzMrst76ra0w">YT channel</a>, I also...</h2>
+            <article>
+                <div class="polaroid">
+                    <div class="container">
+                        ...like to watch anime, since I have watched a lot, <a
+                            href="https://myanimelist.net/profile/DevNightshade">here's a link to my MAL</a> and below
+                        are a few of my favourite Anime:
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img class="myImg" src="../img/ad.jpg" alt="Akudama Drive" onclick="image(event)" width="215"
+                        height="300" />
+                    <img class="myImg" src="../img/tye.jpg" alt="To Your Eternity" onclick="image(event)" width="215"
+                        height="300" />
+                    <img class="myImg" src="../img/overlord.jpg" alt="Overlord" onclick="image(event)" width="215"
+                        height="300" />
+                    <img class="myImg" src="../img/mia.jpg" alt="Made In Abyss" onclick="image(event)" width="215"
+                        height="300" />
+                    <img class="myImg" src="../img/ve.jpg" alt="Violet Evergarden" onclick="image(event)" width="215"
+                        height="300" />
+                    <img class="myImg" src="../img/vivy.jpg" alt="Vivy: Fluorite Eye's Song" onclick="image(event)"
+                        width="215" height="300" />
+                    <img class="myImg" src="../img/mt.jpg" alt="Mushoku Tensei: Jobless Reincarnation"
+                        onclick="image(event)" width="215" height="300" />
+                </div>
+            </article>
+            <article>
+                <div class="polaroid">
+                    <div class="container">
+                        ...like to casually play games, since I have too many to list, <a
+                            href="https://steamcommunity.com/id/DevNightshade/">here's a link to my Steam</a> and below
+                        are currently installed games:
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img class="myImg" src="../img/bf1.jpg" alt="Battlefield 1" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/drg.jpg" alt="Deep Rock Galactic" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/sf.jpg" alt="Satisfactory" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/bbr.jpg" alt="Battle Bit Remastered" onclick="image(event)"
+                        width="510" height="300" />
+                    <img class="myImg" src="../img/d2.jpg" alt="Destiny 2" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/gfr.jpg" alt="Gunfire Reborn" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/tb.png" alt="Tannenberg" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/vd.jpg" alt="Verdun" onclick="image(event)" width="510"
+                        height="300" />
+                    <img class="myImg" src="../img/tf2.png" alt="Titanfall 2" onclick="image(event)" width="510"
+                        height="300" />
+                </div>
+            </article>
+        </section>
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            function image(event) {
+                modal.style.display = "block";
+                modalImg.src = event.target.src;
+                captionText.innerHTML = event.target.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function () {
+                modal.style.display = "none";
+            };
+        </script>
+
+        <footer>
+            <a href="Contact.html">Contact</a><br />
+            <br />
+            © 2022 by Nightshade
+        </footer>
+    </main>
+</body>
+
 </html>
