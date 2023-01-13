@@ -19,21 +19,25 @@ a {
   padding: 2px 5px 2px 5px;
   border-radius: 3px;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline #99042F;
 }
 
 .active,
 a:hover {
   color: #550311;
   background-color: #FFFFFF;
+  text-decoration: none;
 }
 
 #bg {
   background-color: #45020E;
+  text-decoration: underline #99042F;
 }
 
+.active,
 #bg:hover {
   background-color: #FFFFFF;
+  text-decoration: none;
 }
 
 #backlink {
