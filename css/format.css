@@ -160,11 +160,11 @@ tbody tr:nth-child(even) {
   box-shadow: 0 5px 15px #000000;
   margin-bottom: 25px;
   background-color: #550311;
+  padding: 10px 0 10px 10px;
 }
 
 .container {
   text-align: left;
-  padding: 10px 0px 10px 5px;
   background-color: #550311;
 }
 
