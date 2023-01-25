@@ -89,11 +89,6 @@ p {
   margin-right: auto;
 }
 
-img,
-#formatVIDEO {
-  border: 2px solid #e5e5e5;
-}
-
 #logo {
   border: solid #550311;
 }
@@ -175,9 +170,8 @@ tbody tr:nth-child(even) {
 }
 
 iframe {
-  box-shadow: 0 5px 15px #000000;
-  width: 124.44444444444444444444444444444vh;
-  height: 70vh;
+  width: 960px;
+  height: 540px;
 }
 
 footer {
