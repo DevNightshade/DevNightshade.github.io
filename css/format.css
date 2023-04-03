@@ -66,6 +66,17 @@ a:hover {
   text-decoration: none;
 }
 
+#bgs {
+  background-color: transparent;
+  text-decoration: underline #99042F;
+}
+
+.active,
+#bgs:hover {
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
+
 #backlink {
   background-color: #550311;
 }
