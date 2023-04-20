@@ -1,4 +1,4 @@
-/* Latest update [dd.mm.yyyy]: 03.04.2023 */
+/* Latest update [dd.mm.yyyy]: 20.04.2023 */
 * {
   color: #FFFFFF;
   font-size: 20px;
@@ -135,7 +135,7 @@ section,
 aside,
 footer {
   background-color: #550311;
-  padding: 15px;
+  padding: 5px;
 }
 
 header {
