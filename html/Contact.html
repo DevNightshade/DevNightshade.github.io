@@ -9,8 +9,22 @@
     <link rel="icon" href="../img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/format.css" />
 </head>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+    $(window).load(function () {
+        $(".preloader").delay(1).fadeOut("slow");
+        $("#overlayer").delay(1).fadeOut("slow");
+    })
+</script>
 
 <body>
+    <div id="overlayer"></div>
+    <div class="preloader">
+        <div class="loader">
+            <span class="loader-inner"></span>
+        </div>
+        <p> Loading...</p>
+    </div>
     <div id="divContent">
         <div id="divHeader">
             <header>
@@ -57,7 +71,7 @@
                         </p>
                         <p>
                             Haftungsausschluss:<br /><br />
-    
+
                             Haftung für Inhalte<br /><br />
                             Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit,
                             Vollständigkeit und Aktualität der Inhalte
@@ -74,7 +88,7 @@
                             Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir
                             diese Inhalte umgehend entfernen.
                             <br /><br />
-    
+
                             Haftung für Links<br /><br />
                             Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss
                             haben. Deshalb können wir für
@@ -88,7 +102,7 @@
                             Bei Bekanntwerden von
                             Rechtsverletzungen werden wir derartige Links umgehend entfernen.
                             <br /><br />
-    
+
                             Urheberrecht<br /><br />
                             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
                             deutschen Urheberrecht. Die
@@ -104,7 +118,7 @@
                             Bekanntwerden von Rechtsverletzungen
                             werden wir derartige Inhalte umgehend entfernen.
                             <br /><br />
-    
+
                             Datenschutz <br /><br />
                             Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich.
                             Soweit auf unseren Seiten
