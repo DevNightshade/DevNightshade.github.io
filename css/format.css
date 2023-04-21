@@ -32,16 +32,13 @@ body {
 
 .preloader p {
   position: absolute;
-  top: 80%;
-  left: 50%;
-  margin-left: -45px;
-  width: 120px;
-  height: 90px;
-  background-color: #45020E;
+  top: 75%;
+  background-color: transparent;
   text-align: center;
   color: #FFFFFF;
-  font-size: 24px;
   z-index: 4;
+  right: 50%;
+  transform: translateX(50%);
 }
 
 .loader {
