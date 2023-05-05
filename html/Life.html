@@ -43,7 +43,7 @@
             </header>
         </div>
         <main>
-            <section>Latest update [dd.mm.yyyy]: 21.04.2023
+            <section>Latest update [dd.mm.yyyy]: 05.05.2023
                 <h2>Draw My Life™ but in text instead.</h2>
                 <article>
                     <div class="contact">
@@ -96,6 +96,21 @@
                     </div>
                 </article>
             </section>
+            <script>
+                let mybutton = document.getElementById("myBtn");
+                window.onscroll = function () { scrollFunction() };
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                } 
+            </script>
         </main>
         <div id="divPush"></div>
     </div>
