@@ -378,6 +378,7 @@ footer {
 }
 
 .myImg {
+  z-index: 2;
   border-radius: 0px;
   cursor: pointer;
   transition: 0.3s;
@@ -388,9 +389,9 @@ footer {
 }
 
 .modal {
+  z-index: 2;
   display: none;
   position: fixed;
-  z-index: 1;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -402,6 +403,7 @@ footer {
 }
 
 .modal-content {
+  z-index: 2;
   margin: auto;
   display: block;
   width: 80%;
