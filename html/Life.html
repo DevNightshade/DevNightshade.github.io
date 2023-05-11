@@ -18,14 +18,22 @@
 </script>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <div id="overlayer"></div>
-    <div class="preloader">
-        <div class="loader">
-            <span class="loader-inner">:D</span>
-        </div>
-        <p>Generating Doxxing Page...</p>
-    </div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<div id="overlayer"></div>
+	<div class="preloader">
+		<div class="loader">
+			<span class="loader-inner">:D</span>
+		</div>
+		<p><input type="text" id="randomText" size="28" readonly></p>
+		<script>
+			var texts = [
+				"Generating Doxxing Page...",
+				"Life's where I wanna be...",
+				"Loading optimism..."
+			];
+			document.getElementById('randomText').value = texts[Math.floor(Math.random() * texts.length)];
+		</script>
+	</div>
     <div id="divContent">
         <div id="divHeader">
             <header>
@@ -44,7 +52,7 @@
             </header>
         </div>
         <main>
-            <section>Latest update [dd.mm.yyyy]: 10.05.2023
+            <section>Latest update [dd.mm.yyyy]: 11.05.2023
                 <h2>Draw My Life™ but in text instead.</h2>
                 <article>
                     <div class="contact">

@@ -1,4 +1,4 @@
-/* Latest update [dd.mm.yyyy]: 10.05.2023 */
+/* Latest update [dd.mm.yyyy]: 11.05.2023 */
 * {
   color: #FFFFFF;
   font-size: 20px;
@@ -37,8 +37,8 @@ body {
   text-align: center;
   color: #FFFFFF;
   z-index: 4;
-  right: 50%;
-  transform: translateX(50%);
+  right: 48%;
+  transform: translateX(48%);
 }
 
 .loader {
@@ -147,6 +147,11 @@ body {
   100% {
     height: 0%;
   }
+}
+
+input{
+  border: transparent;
+  background-color: transparent;
 }
 
 #divHeader {

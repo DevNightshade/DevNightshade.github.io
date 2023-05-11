@@ -24,7 +24,15 @@
 		<div class="loader">
 			<span class="loader-inner">:D</span>
 		</div>
-		<p>Loading Welcome Message...</p>
+		<p><input type="text" id="randomText" size="28" readonly></p>
+		<script>
+			var texts = [
+				"Loading welcome message...",
+				"Loading some nice stuff...",
+				"Loading the lemons..."
+			];
+			document.getElementById('randomText').value = texts[Math.floor(Math.random() * texts.length)];
+		</script>
 	</div>
 	<div id="divContent">
 		<div id="divHeader">
@@ -44,7 +52,7 @@
 			</header>
 		</div>
 		<main>
-			<section>Latest update [dd.mm.yyyy]: 10.05.2023
+			<section>Latest update [dd.mm.yyyy]: 11.05.2023
 				<h2 style="text-align: center">MEET THE PERSON BEHIND "NIGHTSHADE"</h2>
 				<article>
 					<table>

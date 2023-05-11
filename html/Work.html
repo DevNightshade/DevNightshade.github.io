@@ -18,14 +18,22 @@
 </script>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-    <div id="overlayer"></div>
-    <div class="preloader">
-        <div class="loader">
-            <span class="loader-inner">:D</span>
-        </div>
-        <p>Finishing palgarism...</p>
-    </div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<div id="overlayer"></div>
+	<div class="preloader">
+		<div class="loader">
+			<span class="loader-inner">:D</span>
+		</div>
+		<p><input type="text" id="randomText" size="28" readonly></p>
+		<script>
+			var texts = [
+				"Finishing palgarism...",
+				"Covering up sloppy work...",
+				"AI is buffering..."
+			];
+			document.getElementById('randomText').value = texts[Math.floor(Math.random() * texts.length)];
+		</script>
+	</div>
     <div id="divContent">
         <div id="divHeader">
             <header>
@@ -44,7 +52,7 @@
             </header>
         </div>
         <main>
-            <section>Latest update [dd.mm.yyyy]: 10.05.2023
+            <section>Latest update [dd.mm.yyyy]: 11.05.2023
                 <h2>
                     I volunteer for a German anime streaming website
                     called<a id="bg" style="font-size: 26.5px;" href="https://proxer.me">Proxer,</a>which
