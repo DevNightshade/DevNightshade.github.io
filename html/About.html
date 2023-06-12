@@ -5,15 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>SorryNotSorry</title>
+    <title>Portfolio: About</title>
     <link rel="icon" href="../img/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/format.css" />
 </head>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script>
     $(window).load(function () {
-        $(".preloader").delay(3000).fadeOut("slow");
-        $("#overlayer").delay(3000).fadeOut("slow");
+        $(".preloader").delay(1000).fadeOut("slow");
+        $("#overlayer").delay(1000).fadeOut("slow");
     })
 </script>
 
@@ -22,12 +22,14 @@
     <div id="overlayer"></div>
     <div class="preloader">
         <div class="loader">
-            <span class="loader-inner">:3</span>
+            <span class="loader-inner">:></span>
         </div>
         <p><input type="text" id="randomText" size="28" readonly></p>
         <script>
             var texts = [
-                "Deploying Cake in... 3, 2, 1"
+                "Loading Changelogs...",
+                "Loading Treelogs...",
+                "Loading Cat errors..."
             ];
             document.getElementById('randomText').value = texts[Math.floor(Math.random() * texts.length)];
         </script>
@@ -36,25 +38,37 @@
         <div id="divHeader">
             <header>
                 <a id="backlink" style="float: left;">
-                    <img id="logo" src="../img/gay.png" width="125" height="75" />
+                    <img id="logo" src="../img/logo.png" width="75" height="75" />
                 </a>
-                <h1>
-                    <a style="font-size: 26.5px;"
-                       href="https://www.urbandictionary.com/define.php?term=%E2%80%9CI%20forgor%F0%9F%92%80%E2%80%9D">
-                        I forgor&#128128</a>
+                <h1>Nightshade's Portfolio
                     <ul>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click</a>
-                        <a href="https://www.youtube.com/watch?v=GtL1huin9EE">Me</a>
-                        <a class="active">Not tis' one, silly</a>
+                        <a class="active">About</a>
+                        <a href="https://devnightshade.github.io">Homepage</a>
+                        <a href="Freetime.html">Freetime</a>
+                        <a href="Life.html">My Life</a>
+                        <a href="Work.html">My Work</a>
+                        <a href="Contact.html">Contact</a>
                     </ul>
                 </h1>
             </header>
         </div>
         <main>
             <section>Latest update [dd.mm.yyyy]: 12.06.2023
-                <h2>Parry this you filthy casual!</h2>
+                <h2>This "About" tab is intended as the same as changelogs</h2>
                 <header>
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0"></iframe>
+                    <div class="contact">
+                        <p>
+                            > 12.06.2023:<br />
+                            - Added the tab "About".<br />
+                            - Updated the "latest update" on all tabs.<br /><br />
+                            > 11.06.2023:<br />
+                            - Created the tab "About".<br /><br />
+                            numerous unlogged changes and uploads in between.
+                            <br /><br />
+                            > 29.07.2022:<br />
+                            - Created and uploaded my portfolio.
+                        </p>
+                    </div>
                 </header>
             </section>
             <script>
@@ -77,8 +91,8 @@
     </div>
     <div id="divFooter">
         <footer>
-            <a id="bg" href="https://www.youtube.com/watch?v=sY80ZrzQkrk">OwO, What's this?</a><br /><br />
-            <a id="bg" href="https://devnightshade.github.io">Take me home, to the place, where I belong</a>
+            <a id="bg" href="Contact.html">Contact</a><br /><br />
+            © 2023 by Nightshade
         </footer>
     </div>
 </body>
