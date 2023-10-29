@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+        name="viewport" />
+    <link rel="icon" href="../img/icons/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/new.css" />
+    <title>Portfolio: Anime</title>
+</head>
+
+<body>
+    <div class="OuterBody">
+        <section>
+            <article>
+                <!-- Part I -->
+                <img class="Logo" src="../img/icons/logo.png" width="96" height="96" />
+                <p class="Tag">@DevNightshade</p>
+                <p class="Desc">Hobbies: Anime</p>
+                <!-- Part II -->
+                <p class="HeaderOne">As I watch a lot, I also have favourites</p>
+                <p class="HeaderTwo">Table of contents</p>
+                <button type="button" class="Dropdown">
+                    <p>Favourites List</p>
+                </button>
+                <div class="DropdownContent">
+                    <div class="ImgContainer">
+                        <img src="../img/anime/ad.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Akudama Drive</div>
+                        </div>
+                    </div>
+                    <div class="ImgContainer">
+                        <img src="../img/anime/c.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Charlotte</div>
+                        </div>
+                    </div>
+                    <div class="ImgContainer">
+                        <img src="../img/anime/glt.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Girl's Last Tour</div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="ImgContainer">
+                        <img src="../img/anime/mia.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Made In Abyss</div>
+                        </div>
+                    </div>
+                    <div class="ImgContainer">
+                        <img src="../img/anime/mt.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Jobless Reincarnation</div>
+                        </div>
+                    </div>
+                    <div class="ImgContainer">
+                        <img src="../img/anime/overlord.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Overlord</div>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="ImgContainer">
+                        <img src="../img/anime/tamb.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Ancient Magus Bride</div>
+                        </div>
+                    </div>
+                    <div class="ImgContainer">
+                        <img src="../img/anime/tye.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">To Your Eternity</div>
+                        </div>
+                    </div>
+                    <div class="ImgContainer">
+                        <img src="../img/anime/ve.jpg" width="150.5px" height="210px" style="padding: 8px;" />
+                        <div class="ImgOverlay">
+                            <div class="text">Violet Evergarden</div>
+                        </div>
+                    </div>
+                </div>
+                <a class="Link" href="hobbies.html">Go back</a>
+                <p class="HeaderTwo">Related profiles</p>
+                <!-- Part III -->
+                <div class="Icons">
+                    <a href="https://myanimelist.net/profile/DevNightshade" class="media"><img class="image"
+                            src="../img/icons/mal.png" /></a>
+                    <a href="https://proxer.me/user/755327/" class="media"><img class="image"
+                            src="../img/icons/proxer.png" /></a>
+                </div>
+            </article>
+        </section>
+        <script>
+            var coll = document.getElementsByClassName("Dropdown");
+            var i;
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+    </div>
+    <div class="Footer">
+        <footer>
+            © 2023 by Nightshade
+            <br />
+            Latest update [dd.mm.yyyy]: 29.10.2023
+        </footer>
+    </div>
+</body>
+
+</html>
