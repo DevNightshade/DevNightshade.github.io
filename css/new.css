@@ -1,4 +1,4 @@
-/* Latest update [dd.mm.yyyy]: 29.10.2023 */
+/* Latest update [dd.mm.yyyy]: 02.11.2023 */
 * {
     font-size: 0px;
     box-sizing: border-box;
@@ -57,11 +57,6 @@ section article {
 
 img {
     background-color: transparent;
-}
-
-.Logo {
-    border-radius: 100%;
-    margin: 0px auto 16px;
 }
 
 p {
