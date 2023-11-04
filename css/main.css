@@ -1,4 +1,4 @@
-/* Latest update [dd.mm.yyyy]: 02.11.2023 */
+/* Latest update [dd.mm.yyyy]: 04.11.2023 */
 * {
     font-size: 0px;
     box-sizing: border-box;
@@ -70,6 +70,7 @@ p {
 a {
     color: transparent;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .Tag {
@@ -108,7 +109,6 @@ a {
     border-radius: 8px;
     margin: 0 0 16px;
     padding: 16px 20px;
-    cursor: pointer;
     text-decoration: none;
     display: flex;
     justify-content: center;
