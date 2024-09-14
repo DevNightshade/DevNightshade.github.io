@@ -1,10 +1,10 @@
-/* Latest update [dd.mm.yyyy]: 01.09.2024 */
+/* Latest update [dd.mm.yyyy]: 15.09.2024 */
 * {
     font-size: 0px;
     box-sizing: border-box;
     font-family: "Monteserat", Arial, sans-serif;
-    scrollbar-width: thin !important;
-    scrollbar-color: rgb(153, 4, 47) transparent !important;
+    scrollbar-width: auto !important;
+    scrollbar-color: #99042fff #ffffff00 !important;
     letter-spacing: 1px;
     line-height: 16px;
 }
@@ -202,7 +202,6 @@ a {
 
 .ImgContainer {
     position: relative;
-    width: 33.3333%;
     float: left;
 }
 
