@@ -20,20 +20,20 @@ body {
     margin: 0;
     overflow-x: hidden;
     background:
-        radial-gradient(50% 50% at 100% 0, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
+        radial-gradient(50% 50% at 100% 0, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
+            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%,
             #0000 96%),
-        radial-gradient(50% 50% at 0 100%, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
+        radial-gradient(50% 50% at 0 100%, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
+            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%,
             #0000 96%),
-        radial-gradient(50% 50%, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
+        radial-gradient(50% 50%, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
+            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%,
             #0000 96%),
-        radial-gradient(50% 50%, #45020e 0% 5%, #000000 6% 15%, #45020e 16% 25%, #000000 26% 35%, #45020e 36% 45%,
-            #000000 46% 55%, #45020e 56% 65%, #000000 66% 75%, #45020e 76% 85%, #000000 86% 95%,
+        radial-gradient(50% 50%, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
+            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%,
             #0000 96%) 32px 32px;
     background-size: 64px 64px;
-    background-color: #45020e;
+    background-color: #550311;
 }
 
 .OuterBody {
@@ -51,7 +51,7 @@ section article {
     display: flex;
     color: #FFFFFF;
     text-align: center;
-    background-color: #000000;
+    background-color: #1C0105;
     border-radius: 32px;
     margin: 0 auto;
     padding: 16px;
@@ -108,7 +108,7 @@ a {
     border: 2px solid rgb(153, 4, 47);
     box-shadow: rgb(153, 4, 47) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(69, 2, 14);
+    background-color: rgb(85, 3, 17);
     width: calc(100% - 12px);
     border-radius: 8px;
     margin: 0 0 16px;
@@ -124,8 +124,8 @@ a {
 }
 
 .Link:hover {
-    border: 2px solid rgb(69, 2, 14);
-    box-shadow: rgb(69, 2, 14) 8px 8px 0px 0px;
+    border: 2px solid rgb(85, 3, 17);
+    box-shadow: rgb(85, 3, 17) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
     background-color: rgb(153, 4, 47);
 }
@@ -161,7 +161,7 @@ a {
     border: 2px solid rgb(153, 4, 47);
     box-shadow: rgb(153, 4, 47) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(69, 2, 14);
+    background-color: rgb(85, 3, 17);
     width: calc(100% - 12px);
     border-radius: 8px;
     margin: 0 0 16px;
@@ -178,15 +178,15 @@ a {
 }
 
 .Dropdown:hover {
-    border: 2px solid rgb(69, 2, 14);
-    box-shadow: rgb(69, 2, 14) 8px 8px 0px 0px;
+    border: 2px solid rgb(85, 3, 17);
+    box-shadow: rgb(85, 3, 17) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
     background-color: rgb(153, 4, 47);
 }
 
 .active {
-    border: 2px solid rgb(69, 2, 14);
-    box-shadow: rgb(69, 2, 14) 8px 8px 0px 0px;
+    border: 2px solid rgb(85, 3, 17);
+    box-shadow: rgb(85, 3, 17) 8px 8px 0px 0px;
     color: rgb(255, 255, 255);
     background-color: rgb(153, 4, 47);
     margin: 0;
@@ -194,7 +194,7 @@ a {
 
 .DropdownContent {
     margin: 0 4px 8px 8px;
-    background-color: rgb(69, 2, 14);
+    background-color: rgb(85, 3, 17);
     display: none;
     overflow: hidden;
     padding: 8px;
