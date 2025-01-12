@@ -1,6 +1,6 @@
 /*
 	© 2025 by Nightshade
-	Latest update [dd.mm.yyyy]: 01.01.2025
+	Latest update [dd.mm.yyyy]: 12.01.2025
 */
 
 * {
@@ -98,7 +98,7 @@ a {
 }
 
 .HeaderTwo {
-    margin: 16px;
+    margin: 16px 0 8px;
     font-weight: 700;
     letter-spacing: 0.4px;
 }
@@ -131,7 +131,6 @@ a {
 }
 
 .Icons {
-    margin: 8px 0 0;
     background-color: transparent;
 }
 
@@ -142,12 +141,44 @@ a {
     will-change: transform;
 }
 
-.media {
+.logo{
+    border-radius: 100%; 
+    margin: 0px auto 8px; 
+    width: 96px; 
+    height: 96px; 
+    transition: transform .1s;
+    will-change: transform;
+}
+
+.media { 
     margin: 0 4px;
 }
 
 .media:hover .image {
     transform: scale(1.075);
+}
+
+.media:hover .logo {
+    transform: scale(1.075);
+}
+
+.anime{
+    width: 150.5px;
+    height: 210px;
+    padding: 8px;
+}
+
+.game{
+    width: 316px;
+    height: 185px;
+    padding: 8px;
+}
+
+.prev{
+    width:300px;
+    height:215px; 
+    padding: 8px; 
+    margin: 0 5px;
 }
 
 .contact {
