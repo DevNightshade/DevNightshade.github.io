@@ -1,231 +1,288 @@
 /*
     © 2025 by Nightshade
-    Latest update [dd.mm.yyyy]: 12.01.2025
+    Latest update [dd.mm.yyyy]: 17.01.2025
 */
 
 * {
-    box-sizing: border-box;
-    font-family: "Monteserat", Arial, sans-serif;
-    scrollbar-width: auto !important;
-    scrollbar-color: #99042fff #ffffff00 !important;
-    letter-spacing: 1px;
-    line-height: 16px;
-    background-color: transparent;
+	box-sizing: border-box;
+	font-family: "Monteserat", Arial, sans-serif;
+	scrollbar-width: auto !important;
+	scrollbar-color: #99042fff #ffffff00 !important;
+	letter-spacing: 1px;
+	line-height: 16px;
+	background-color: transparent;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    overflow-x: hidden;
-    background:
-        radial-gradient(50% 50% at 100% 0, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
-            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%, #0000 96%),
-        radial-gradient(50% 50% at 0 100%, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
-            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%, #0000 96%),
-        radial-gradient(50% 50%, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
-            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%, #0000 96%),
-        radial-gradient(50% 50%, #550311 0% 5%, #000000 6% 15%, #550311 16% 25%, #000000 26% 35%, #550311 36% 45%,
-            #000000 46% 55%, #550311 56% 65%, #000000 66% 75%, #550311 76% 85%, #000000 86% 95%, #0000 96%) 32px 32px;
-    background-size: 64px 64px;
-    background-color: #550311;
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	background: radial-gradient(
+			50% 50% at 100% 0,
+			#550311 0% 5%,
+			#000000 6% 15%,
+			#550311 16% 25%,
+			#000000 26% 35%,
+			#550311 36% 45%,
+			#000000 46% 55%,
+			#550311 56% 65%,
+			#000000 66% 75%,
+			#550311 76% 85%,
+			#000000 86% 95%,
+			#0000 96%
+		),
+		radial-gradient(
+			50% 50% at 0 100%,
+			#550311 0% 5%,
+			#000000 6% 15%,
+			#550311 16% 25%,
+			#000000 26% 35%,
+			#550311 36% 45%,
+			#000000 46% 55%,
+			#550311 56% 65%,
+			#000000 66% 75%,
+			#550311 76% 85%,
+			#000000 86% 95%,
+			#0000 96%
+		),
+		radial-gradient(
+			50% 50%,
+			#550311 0% 5%,
+			#000000 6% 15%,
+			#550311 16% 25%,
+			#000000 26% 35%,
+			#550311 36% 45%,
+			#000000 46% 55%,
+			#550311 56% 65%,
+			#000000 66% 75%,
+			#550311 76% 85%,
+			#000000 86% 95%,
+			#0000 96%
+		),
+		radial-gradient(
+				50% 50%,
+				#550311 0% 5%,
+				#000000 6% 15%,
+				#550311 16% 25%,
+				#000000 26% 35%,
+				#550311 36% 45%,
+				#000000 46% 55%,
+				#550311 56% 65%,
+				#000000 66% 75%,
+				#550311 76% 85%,
+				#000000 86% 95%,
+				#0000 96%
+			)
+			32px 32px;
+	background-size: 64px 64px;
+	background-color: #550311;
 }
 
 .OuterBody {
-    min-height: 100%;
-    margin: 0 auto -90px;
+	min-height: 100%;
+	margin: 0 auto -90px;
 }
 
 section {
-    float: left;
-    width: 100%;
-    margin: 50px 0;
+	float: left;
+	width: 100%;
+	margin: 50px 0;
 }
 
 section article {
-    display: flex;
-    color: #FFFFFF;
-    text-align: center;
-    background-color: #1C0105;
-    border-radius: 32px;
-    margin: 0 auto;
-    padding: 16px;
-    max-width: 715px;
-    flex-direction: column;
+	display: flex;
+	color: #ffffff;
+	text-align: center;
+	background-color: #1c0105;
+	border-radius: 32px;
+	margin: 0 auto;
+	padding: 16px;
+	max-width: 715px;
+	flex-direction: column;
 }
 
 p {
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    line-height: 1.5;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 1.5;
 }
 
 a {
-    color: transparent;
-    cursor: pointer;
+	color: transparent;
+	cursor: pointer;
 }
 
 .Tag {
-    margin: 0;
-    font-weight: 700;
-    font-size: 20px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    text-align: center;
+	margin: 0;
+	font-weight: 700;
+	font-size: 20px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: center;
 }
 
 .Desc {
-    margin: 4px 0 16px;
+	margin: 4px 0 16px;
 }
 
-.HeaderOne, .HeaderTwo {
-    margin: 16px;
-    font-weight: 700;
+.HeaderOne,
+.HeaderTwo {
+	margin: 16px;
+	font-weight: 700;
 }
 
 .HeaderTwo {
-    margin: 16px 0 8px;
-    letter-spacing: 0.4px;
+	margin: 16px 0 8px;
+	letter-spacing: 0.4px;
 }
 
-.Link, .Dropdown {
-    overflow: hidden;
-    border: 2px solid rgb(153, 4, 47);
-    box-shadow: rgb(153, 4, 47) 8px 8px 0px 0px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(85, 3, 17);
-    width: calc(100% - 12px);
-    border-radius: 8px;
-    margin: 0 0 16px;
-    padding: 16px 44px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    text-align: center;
-    line-height: 1.5;
+.Link,
+.Dropdown {
+	overflow: hidden;
+	border: 2px solid rgb(153, 4, 47);
+	box-shadow: rgb(153, 4, 47) 8px 8px 0px 0px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(85, 3, 17);
+	width: calc(100% - 12px);
+	border-radius: 8px;
+	margin: 0 0 16px;
+	padding: 16px 44px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.5;
 }
 
-.Link:hover, .Dropdown:hover, .active {
-    border: 2px solid rgb(85, 3, 17);
-    box-shadow: rgb(85, 3, 17) 8px 8px 0px 0px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(153, 4, 47);
+.Link:hover,
+.Dropdown:hover,
+.active {
+	border: 2px solid rgb(85, 3, 17);
+	box-shadow: rgb(85, 3, 17) 8px 8px 0px 0px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(153, 4, 47);
 }
 
 .Dropdown {
-    cursor: pointer;
-    padding: 0 44px;
+	cursor: pointer;
+	padding: 0 44px;
 }
 
 .active {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .DropdownContent {
-    margin: 0 4px 8px 8px;
-    background-color: rgb(85, 3, 17);
-    display: none;
-    overflow: hidden;
-    padding: 8px;
-    border-radius: 0 0 8px 8px;
+	margin: 0 4px 8px 8px;
+	background-color: rgb(85, 3, 17);
+	display: none;
+	overflow: hidden;
+	padding: 8px;
+	border-radius: 0 0 8px 8px;
 }
 
-.image, .logo {
-    width: 40px;
-    height: 40px;
-    transition: transform 0.1s;
-    will-change: transform;
+.image,
+.logo {
+	width: 40px;
+	height: 40px;
+	transition: transform 0.1s;
+	will-change: transform;
 }
 
 .logo {
-    border-radius: 100%;
-    margin: 0 auto 8px;
-    width: 96px;
-    height: 96px;
+	border-radius: 100%;
+	margin: 0 auto 8px;
+	width: 96px;
+	height: 96px;
 }
 
-.media:hover .image, .media:hover .logo {
-    transform: scale(1.075);
+.media:hover .image,
+.media:hover .logo {
+	transform: scale(1.075);
 }
 
-.anime, .game, .prev {
-    padding: 4px;
+.anime,
+.game,
+.prev {
+	padding: 4px;
 }
 
 .anime {
-    width: 162.5px;
-    height: 224px;
+	width: 162.5px;
+	height: 224px;
 }
 
 .game {
-    width: 327.5px;
-    height: 190px;
+	width: 327.5px;
+	height: 190px;
 }
 
 .vrc {
-    width: 317.5px;
-    height: 220px;
-    margin: 0 5px;
+	width: 317.5px;
+	height: 220px;
+	margin: 0 5px;
 }
 
 .contact {
-    padding: 10px;
-    background-color: #550311;
-    box-shadow: 0 5px 15px #000000;
+	padding: 10px;
+	background-color: #550311;
+	box-shadow: 0 5px 15px #000000;
 }
 
 .ImgContainer {
-    position: relative;
-    float: left;
+	position: relative;
+	float: left;
 }
 
 .ImgOverlay {
-    transition: 0.3s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+	transition: 0.3s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 .ImgContainer:hover .ImgOverlay {
-    opacity: 1;
+	opacity: 1;
 }
 
 .text {
-    background-color: rgb(153, 4, 47);
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
+	background-color: rgb(153, 4, 47);
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
 }
 
 .Secret {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
 }
 
-.Secret>iframe {
-    width: 300px;
-    height: 169px;
+.Secret > iframe {
+	width: 300px;
+	height: 169px;
 }
 
 .Footer {
-    height: 44px;
+	height: 44px;
 }
 
 footer {
-    color: #808080;
-    font-weight: 700;
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 5px;
-    margin-bottom: 32px;
-    line-height: 24px;
+	color: #808080;
+	font-weight: 700;
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 5px;
+	margin-bottom: 32px;
+	line-height: 24px;
 }
