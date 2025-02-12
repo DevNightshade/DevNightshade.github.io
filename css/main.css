@@ -1,6 +1,6 @@
 /*
     © 2025 by Nightshade
-    Latest update [dd.mm.yyyy]: 05.02.2025
+    Latest update [dd.mm.yyyy]: 12.02.2025
 	If you can see this, how? Or rather, why?
 */
 
@@ -267,6 +267,7 @@ a {
 	height: 100%;
 	display: table-cell;
 	vertical-align: middle;
+	padding: 8px;
 }
 
 .Secret > iframe {
