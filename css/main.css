@@ -1,6 +1,6 @@
 /*
     © 2025 by Nightshade
-    Latest update [dd.mm.yyyy]: 15.04.2025
+    Latest update [dd.mm.yyyy]: 18.04.2025
 	If you can see this, how? Or rather, why?
 */
 
@@ -164,6 +164,10 @@ a {
 	background-color: rgb(153, 4, 47);
 }
 
+.SocialLinkText {
+	margin: auto;
+}
+
 .Dropdown {
 	cursor: pointer;
 	padding: 0 44px;
@@ -264,10 +268,6 @@ a {
 .Secret > iframe {
 	width: 300px;
 	height: 169px;
-}
-
-iframe {
-	
 }
 
 .Footer {
