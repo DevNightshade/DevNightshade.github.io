@@ -14,41 +14,60 @@
 			<section>
 				<article>
 					<div class="Icons" style="margin: 0">
-						<a onclick="window.location.href = 'html/other/secret.html';" class="media">
+						<a onclick="window.location.href = 'html/landing.html';" class="media">
 							<img class="logo" src="imgs/icons/logo.png" />
 						</a>
 					</div>
 
 					<p class="Tag">@DevNightshade</p>
-					<p class="Desc">The Logo redirects back here!</p>
-					<p class="HeaderOne">Welcome to my Homepage!</p>
+					<p class="Desc">The Logo redirects to the Homepage!</p>
+					<p class="HeaderOne">A short "about me" landing page</p>
 					<p class="HeaderTwo">Table of Contents</p>
+					
+					<p>
+						Hi, I'm DevNightshade!
+						<br />
+						A creator, gamer and tinkerer from Germany.
+						<br /><br />
+						You can call me Nightshade. I enjoy creating things in VRChat,
+						for which I use Unity and Substance Painter. This Website serves
+						as a personal hobby portfolio displaying my work. It's categorized in four parts as following:
+						<br /><br />
+						Hobbies: contains all of my favorites: anime, games and my own YT memes.
+						<br />
+						Work: contains all of my professional YT (Team) and VRChat (Solo) content.
+						<br />
+						Socials: contains all of my social media, see: https://nohello.net/en/
+						<br />
+						Press: a very common legal page, as per german law.
+						<br /><br />
+						Thank you for your interest in what I do, please don't hesitate to ask me anything or to provide feedback!
+					</p>
 
-					<a class="Link" onclick="window.location.href = 'html/hobbies.html';">Hobbies</a>
-					<a class="Link" onclick="window.location.href = 'html/work.html';">Work</a>
-					<a class="Link" onclick="window.location.href = 'html/socials.html';">Socials</a>
-					<a class="Link" onclick="window.location.href = 'html/press.html';">Press</a>
-
-					<p class="HeaderTwo">Reachable under</p>
-					<div class="Icons">
-						<a onclick="window.open('https://discord.com/users/322783900126412801', '_blank');" class="media">
-							<img class="image" src="imgs/icons/discord.png" />
-						</a>
-						<a onclick="window.open('mailto:devnightshade@gmail.com', '_blank');" class="media">
-							<img class="image" src="imgs/icons/gmail.png" />
-						</a>
-						<a onclick="window.open('https://t.me/DevNightshade', '_blank');" class="media">
-							<img class="image" src="imgs/icons/telegram.png" />
-						</a>
-					</div>
+					<a class="Link" onclick="window.location.href = 'html/landing.html';">To the homepage</a>
 				</article>
 			</section>
+			<script>
+				var coll = document.getElementsByClassName("Dropdown")
+				var i
+				for (i = 0; i < coll.length; i++) {
+					coll[i].addEventListener("click", function () {
+						this.classList.toggle("active")
+						var content = this.nextElementSibling
+						if (content.style.display === "block") {
+							content.style.display = "none"
+						} else {
+							content.style.display = "block"
+						}
+					})
+				}
+			</script>
 		</div>
 		<div class="Footer">
 			<footer>
 				© 2025 by Nightshade
 				<br />
-				Latest update [dd.mm.yyyy]: 09.08.2025
+				Latest update [dd.mm.yyyy]: 09.09.2025
 			</footer>
 		</div>
 	</body>
