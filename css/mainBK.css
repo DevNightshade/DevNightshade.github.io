@@ -1,7 +1,6 @@
 /*
-	© 2026 by Nightshade
-	Latest update [dd.mm.yyyy]: 14.06.2026	
-	If you can see this, how? Or rather, why?
+    © 2026 by Nightshade
+Latest update [dd.mm.yyyy]: 14.06.2026	If you can see this, how? Or rather, why?
 */
 
 * {
@@ -172,7 +171,7 @@ a {
 }
 
 .TextLink:hover {
-	color: rgb(255, 0, 72);
+	color: rgb(255, 0, 0);
 }
 
 .SocialLinkText {
