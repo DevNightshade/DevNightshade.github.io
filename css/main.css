@@ -1,17 +1,15 @@
 /*
-	© 2026 by Nightshade
-	Latest update [dd.mm.yyyy]: 14.06.2026	
-	If you can see this, how? Or rather, why?
+    © 2026 by Nightshade
+Latest update [dd.mm.yyyy]: 15.06.2026	If you can see this, how? Or rather, why?
 */
 
 * {
 	box-sizing: border-box;
-	font-family: "Monteserat", Arial, sans-serif;
-	scrollbar-width: auto !important;
-	scrollbar-color: #99042fff #ffffff00 !important;
+	font-family: "Montserrat", Arial, sans-serif;
+	scrollbar-width: auto;
+	scrollbar-color: #99042fff #ffffff00;
 	letter-spacing: 1px;
-	line-height: 16px;
-	background-color: transparent;
+	line-height: 1.5;
 }
 
 html, body {
@@ -111,8 +109,11 @@ p {
 }
 
 a {
-	color: transparent;
 	cursor: pointer;
+}
+
+.media {
+	color: transparent;
 }
 
 .Tag {
@@ -157,7 +158,7 @@ a {
 	line-height: 1.5;
 }
 
-.Link:hover, .Dropdown:hover, .active {
+.Link:hover, .Dropdown:hover, details[open] > .Dropdown {
 	border: 2px solid rgb(85, 3, 17);
 	box-shadow: rgb(85, 3, 17) 8px 8px 0px 0px;
 	color: rgb(255, 255, 255);
@@ -165,14 +166,14 @@ a {
 }
 
 .TextLink {
-    color: rgb(255, 0, 72);
-    text-decoration: underline;
-    cursor: pointer;
-    background-color: transparent;
+	color: rgb(153, 4, 47);
+	text-decoration: underline;
+	cursor: pointer;
+	background-color: transparent;
 }
 
 .TextLink:hover {
-	color: rgb(255, 0, 72);
+	color: rgb(200, 20, 70);
 }
 
 .SocialLinkText {
@@ -184,14 +185,22 @@ a {
 	padding: 0 44px;
 }
 
-.active {
+/* Hide the native <summary> disclosure triangle so it matches the old button */
+summary {
+	list-style: none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+details[open] > .Dropdown {
 	margin-bottom: 0;
 }
 
 .DropdownContent {
 	margin: 0 4px 8px 8px;
 	background-color: rgb(85, 3, 17);
-	display: none;
 	overflow: hidden;
 	padding: 8px;
 	border-radius: 0 0 8px 8px;
@@ -215,7 +224,7 @@ a {
 	transform: scale(1.075);
 }
 
-.anime, .game, .prev {
+.anime, .game {
 	padding: 4px;
 }
 
@@ -265,6 +274,14 @@ a {
 	color: white;
 	font-size: 16px;
 	padding: 16px 32px;
+}
+
+.DropdownContent iframe {
+	width: 317.5px;
+	height: 180px;
+	border: none;
+	border-radius: 8px;
+	margin: 0 5px;
 }
 
 .Secret {

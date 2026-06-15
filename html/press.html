@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta content="ie=edge" http-equiv="X-UA-Compatible" />
@@ -14,8 +14,8 @@
 			<section>
 				<article>
 					<div class="Icons" style="margin: 0">
-						<a onclick="window.location.href = 'landing.html';" class="media">
-							<img class="logo" src="../imgs/icons/logo.png" />
+						<a href="landing.html" class="media">
+							<img class="logo" src="../imgs/icons/logo.png" alt="DevNightshade logo" />
 						</a>
 					</div>
 
@@ -24,9 +24,10 @@
 					<p class="HeaderOne">As per german law regulations</p>
 					<p class="HeaderTwo">Angaben gemäß § 5 TMG / § 5 DDG</p>
 
-					<button type="button" class="Dropdown">
+					<details>
+					<summary class="Dropdown">
 						<p>Impressum</p>
-					</button>
+					</summary>
 					<div class="DropdownContent">
 						<p class="HeaderTwo">Angaben gemäß § 5 TMG:</p>
 						<p>
@@ -38,8 +39,8 @@
 						<p class="HeaderTwo">Kontakt:</p>
 						<p>
 							E-Mail: ask@devnightshade.com<br />
-							<a onclick="window.open('mailto:ask@devnightshade.com', '_blank');" class="media">
-								<img class="image" src="../imgs/icons/gmail.png" />
+							<a href="mailto:ask@devnightshade.com" class="media">
+								<img class="image" src="../imgs/icons/gmail.png" alt="Email" />
 							</a>
 						</p>
 						<p>Diese Website wird ausschließlich zu privaten, nicht-kommerziellen Zwecken betrieben.</p>
@@ -50,10 +51,12 @@
 							sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 						</p>
 					</div>
+					</details>
 
-					<button type="button" class="Dropdown">
+					<details>
+					<summary class="Dropdown">
 						<p>Haftungsausschluss & Urheberrecht</p>
-					</button>
+					</summary>
 					<div class="DropdownContent">
 						<p class="HeaderTwo">
 							Haftung für Inhalte
@@ -84,10 +87,12 @@
 							werden derartige Inhalte umgehend entfernt.
 						</p>
 					</div>
+					</details>
 
-					<button type="button" class="Dropdown">
+					<details>
+					<summary class="Dropdown">
 						<p>Datenschutzerklärung</p>
-					</button>
+					</summary>
 					<div class="DropdownContent">
 						<p class="HeaderTwo">1. Verantwortliche Person</p><p>
 							Kaan Potcu<br />
@@ -95,8 +100,8 @@
 							63811 Stockstadt am Main<br />
 							Deutschland<br />
 							E-Mail: ask@devnightshade.com<br />
-							<a onclick="window.open('mailto:ask@devnightshade.com', '_blank');" class="media">
-								<img class="image" src="../imgs/icons/gmail.png" />
+							<a href="mailto:ask@devnightshade.com" class="media">
+								<img class="image" src="../imgs/icons/gmail.png" alt="Email" />
 							</a>
 						</p><p class="HeaderTwo">2. Allgemeine Hinweise</p><p>
 							Diese Website wird zu privaten, nicht-kommerziellen Zwecken betrieben. Es werden keine Cookies gesetzt, kein Tracking
@@ -109,7 +114,7 @@
 							Interesse am sicheren Betrieb der Website). Die Logdaten werden von GitHub gespeichert und nicht an uns weitergegeben. Da
 							GitHub in den USA ansässig ist, kann es zu einer Datenübermittlung in Drittstaaten kommen. GitHub ist unter dem EU-US Data
 							Privacy Framework zertifiziert. Weitere Informationen:<br />
-							<a onclick="window.open('https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection', '_blank');" class="TextLink">GitHub Pages – Data Collection</a>
+							<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#data-collection" target="_blank" rel="noopener noreferrer" class="TextLink">GitHub Pages – Data Collection</a>
 						</p><p class="HeaderTwo">4. Eingebettete YouTube-Videos</p><p>
 							Auf dieser Website sind Videos der Plattform YouTube (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA)
 							eingebettet. Die Videos werden im datenschutzfreundlichen Modus über youtube-nocookie.com eingebunden. Dabei werden erst dann
@@ -117,7 +122,7 @@
 							ggf. Cookies von Google übermittelt werden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Da Google in den USA ansässig
 							ist, findet eine Datenübermittlung in die USA statt. Google ist unter dem EU-US Data Privacy Framework zertifiziert.
 							Googles Datenschutzerklärung:<br />
-							<a onclick="window.open('https://policies.google.com/privacy', '_blank');" class="TextLink">Google Policies</a>
+							<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="TextLink">Google Policies</a>
 						</p><p class="HeaderTwo">5. E-Mail-Kontakt</p><p>
 							Wenn du per E-Mail Kontakt aufnimmst, werden die übermittelten Daten (E-Mail-Adresse, Name und Nachrichteninhalt)
 							ausschließlich zur Bearbeitung deiner Anfrage verwendet und nicht an Dritte weitergegeben. Rechtsgrundlage ist
@@ -127,47 +132,33 @@
 							der Verarbeitung (Art. 18 DSGVO). Anfragen richtest du bitte an: ask@devnightshade.com. Außerdem hast du das Recht, dich
 							bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Zuständig ist der Bayerische Landesbeauftragte für den Datenschutz
 							(BayLfD), Wagmüllerstraße 18, 80538 München:<br />
-							<a onclick="window.open('https://www.datenschutz-bayern.de', '_blank');" class="TextLink">Datenschutz Bayern</a>
+							<a href="https://www.datenschutz-bayern.de" target="_blank" rel="noopener noreferrer" class="TextLink">Datenschutz Bayern</a>
 						</p>
 					</div>
+					</details>
 
-					<a class="Link" onclick="window.location.href = 'landing.html';">Go back</a>
+					<a class="Link" href="landing.html">Go back</a>
 
 					<p class="HeaderTwo">Reachable under</p>
 					<div class="Icons">
-						<a onclick="window.open('https://discord.com/users/322783900126412801', '_blank');" class="media">
-							<img class="image" src="../imgs/icons/discord.png" />
+						<a href="https://discord.com/users/322783900126412801" target="_blank" rel="noopener noreferrer" class="media">
+							<img class="image" src="../imgs/icons/discord.png" alt="Discord" />
 						</a>
-						<a onclick="window.open('mailto:ask@devnightshade.com', '_blank');" class="media">
-							<img class="image" src="../imgs/icons/gmail.png" />
+						<a href="mailto:ask@devnightshade.com" class="media">
+							<img class="image" src="../imgs/icons/gmail.png" alt="Email" />
 						</a>
-						<a onclick="window.open('https://t.me/DevNightshade', '_blank');" class="media">
-							<img class="image" src="../imgs/icons/telegram.png" />
+						<a href="https://t.me/DevNightshade" target="_blank" rel="noopener noreferrer" class="media">
+							<img class="image" src="../imgs/icons/telegram.png" alt="Telegram" />
 						</a>
 					</div>
 				</article>
 			</section>
-			<script>
-				var coll = document.getElementsByClassName("Dropdown")
-				var i
-				for (i = 0; i < coll.length; i++) {
-					coll[i].addEventListener("click", function () {
-						this.classList.toggle("active")
-						var content = this.nextElementSibling
-						if (content.style.display === "block") {
-							content.style.display = "none"
-						} else {
-							content.style.display = "block"
-						}
-					})
-				}
-			</script>
 		</div>
 		<div class="Footer">
 			<footer>
 				© 2026 by Nightshade
 				<br />
-				Latest update [dd.mm.yyyy]: 14.06.2026
+				Latest update [dd.mm.yyyy]: 15.06.2026
 			</footer>
 		</div>
 	</body>

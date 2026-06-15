@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta content="ie=edge" http-equiv="X-UA-Compatible" />
@@ -14,8 +14,8 @@
 			<section>
 				<article>
 					<div class="Icons" style="margin: 0">
-						<a onclick="window.location.href = '../landing.html';" class="media">
-							<img class="logo" src="../../imgs/icons/logo.png" />
+						<a href="../landing.html" class="media">
+							<img class="logo" src="../../imgs/icons/logo.png" alt="DevNightshade logo" />
 						</a>
 					</div>
 
@@ -24,47 +24,33 @@
 					<p class="HeaderOne">Editor's Choice!</p>
 					<p class="HeaderTwo">Table of Contents</p>
 
-					<button type="button" class="Dropdown">
+					<details>
+					<summary class="Dropdown">
 						<p>Favourites</p>
-					</button>
+					</summary>
 					<div class="DropdownContent">
-						<iframe src="https://www.youtube-nocookie.com/embed/CU3WKhzVXTw" frameborder="0" allowfullscreen loading="lazy"></iframe>
-						<iframe src="https://www.youtube-nocookie.com/embed/F64KUz3EpmQ" frameborder="0" allowfullscreen loading="lazy"></iframe>
-						<iframe src="https://www.youtube-nocookie.com/embed/LZH2rfLypTs" frameborder="0" allowfullscreen loading="lazy"></iframe>
+						<div class="ImgContainer"><iframe src="https://www.youtube-nocookie.com/embed/CU3WKhzVXTw" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+						<div class="ImgContainer"><iframe src="https://www.youtube-nocookie.com/embed/F64KUz3EpmQ" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
+						<div class="ImgContainer"><iframe src="https://www.youtube-nocookie.com/embed/LZH2rfLypTs" frameborder="0" allowfullscreen loading="lazy"></iframe></div>
 					</div>
+					</details>
 
-					<a class="Link" onclick="window.location.href = '../hobbies.html';">Go back</a>
+					<a class="Link" href="../hobbies.html">Go back</a>
 
 					<p class="HeaderTwo">Related profile</p>
 					<div class="Icons">
-						<a onclick="window.open('https://www.youtube.com/@devnightshade', '_blank');" class="media">
-							<img class="image" src="../../imgs/icons/youtube.png" />
+						<a href="https://www.youtube.com/@devnightshade" target="_blank" rel="noopener noreferrer" class="media">
+							<img class="image" src="../../imgs/icons/youtube.png" alt="YouTube" />
 						</a>
 					</div>
 				</article>
 			</section>
-
-			<script>
-				var coll = document.getElementsByClassName("Dropdown")
-				var i
-				for (i = 0; i < coll.length; i++) {
-					coll[i].addEventListener("click", function () {
-						this.classList.toggle("active")
-						var content = this.nextElementSibling
-						if (content.style.display === "block") {
-							content.style.display = "none"
-						} else {
-							content.style.display = "block"
-						}
-					})
-				}
-			</script>
 		</div>
 		<div class="Footer">
 			<footer>
 				© 2026 by Nightshade
 				<br />
-				Latest update [dd.mm.yyyy]: 14.06.2026
+				Latest update [dd.mm.yyyy]: 15.06.2026
 			</footer>
 		</div>
 	</body>
