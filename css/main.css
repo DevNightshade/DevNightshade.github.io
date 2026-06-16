@@ -1,6 +1,6 @@
-/*
-    © 2026 by Nightshade
-Latest update [dd.mm.yyyy]: 15.06.2026	If you can see this, how? Or rather, why?
+/* © 2026 by Nightshade
+Latest update [dd.mm.yyyy]: 16.06.2026
+If you can see this, how? Or rather, why?
 */
 
 * {
@@ -116,6 +116,10 @@ a {
 	color: transparent;
 }
 
+.Icons {
+	text-align: center;
+}
+
 .Tag {
 	margin: 0;
 	font-weight: 700;
@@ -133,6 +137,7 @@ a {
 .HeaderOne, .HeaderTwo {
 	margin: 16px;
 	font-weight: 700;
+	font-size: 16px;
 }
 
 .HeaderTwo {
@@ -242,12 +247,6 @@ details[open] > .Dropdown {
 	width: 317.5px;
 	height: 220px;
 	margin: 0 5px;
-}
-
-.contact {
-	padding: 10px;
-	background-color: #550311;
-	box-shadow: 0 5px 15px #000000;
 }
 
 .ImgContainer {
