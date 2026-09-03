@@ -1,5 +1,5 @@
 /* © 2026 by Nightshade
-Last update [dd.mm.yy]: 31.08.26
+Last update [dd.mm.yy]: 03.09.26
 If you can see this, how? Or rather, why?
 */
 
@@ -237,11 +237,11 @@ details[open] > .Dropdown {
 	transform: scale(1.075);
 }
 
-.anime, .game {
+.shows, .game {
 	padding: 4px;
 }
 
-.anime {
+.shows {
 	width: 162.5px;
 	height: 224px;
 }
