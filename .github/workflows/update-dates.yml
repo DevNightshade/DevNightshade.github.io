@@ -1,0 +1,36 @@
+name: Update dates
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-dates
+  cancel-in-progress: false
+
+jobs:
+  update-dates:
+    # Nicht auf den eigenen Bot-Commit reagieren -> keine Endlosschleife
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # volle History, sonst liefert "git log" kein Commit-Datum
+
+      - name: Datumsangaben eintragen
+        run: bash scripts/update-dates.sh
+
+      - name: Commit & Push (nur wenn sich etwas geaendert hat)
+        run: |
+          if git diff --quiet; then
+            echo "Nichts zu tun."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: Datumsangaben aktualisieren [skip ci]"
+          git push
